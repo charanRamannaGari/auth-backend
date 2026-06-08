@@ -1,3 +1,8 @@
+![Java](https://img.shields.io/badge/Java-17-blue.svg)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.5-brightgreen.svg)
+![JWT](https://img.shields.io/badge/JWT-Authentication-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 # Authentication Backend Service
 
 Spring Boot 3.1.5 backend with JWT authentication for large-scale applications.
