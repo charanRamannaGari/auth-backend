@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+app:
+  jwt:
+    secret: "mySecretKeyForJWTTokenGenerationAndValidation2024VeryLongKeyThatIsAtLeast32Characters"
+    expiration: 86400000  # 24 hours in milliseconds
+
+logging:
+  level:
+    com.charan.auth: DEBUG
+    org.springframework.security: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"

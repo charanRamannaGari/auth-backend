@@ -1,0 +1,32 @@
+# Compiled files
+*.class
+target/
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+.mvn/
+
+# Log files
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Application properties with secrets
+application-prod.yml
+application-local.yml
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Test files
+test-output/
