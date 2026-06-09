@@ -12,14 +12,14 @@ spring:
     properties:
       hibernate:
         format_sql: true
-    defer-datasource-initialization: true  # This is the key fix!
+    defer-datasource-initialization: true
   h2:
     console:
       enabled: true
       path: /h2-console
   sql:
     init:
-      mode: always  # Always run data.sql
+      mode: never
 
 server:
   port: 8080
